@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* For gallery */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    margin-left: 10px;
+    padding: 10px;
+    width: 15%;
+    display: flex;
+}
+
+.logo img {
+    width: 60%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(3, 2, 7, 0.76) !important;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 26px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}
+
+.nav-list li a:hover {
+    color: blue;
+}
+
+.rightNav {
+    text-align: right;
+    width: 30%;
+    padding: 25px 30px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/Background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstSection {
+    height: 88vh;
+}
+
+.btn {
+    padding: 7px 15px;
+    margin: 7px 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.text-big {
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    padding-left: inherit;
+}
+
+.text-small {
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: inherit;
+}
+
+.firstHalf {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 2px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.section {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgFluid {
+    margin-right: 36px;
+    border-radius: 8px;
+    margin-left: 36px;
+}
+
+.para {
+    padding: 40px 0px;
+}
+
+.Heading {
+    padding: 15px 0px;
+}
+
+.nav-colored {
+    background-color: #000;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid rgb(56, 56, 56) 1.5px;
+    padding: 3px;
+    background-color: #181546;
+}
+
+.footer-div {
+    width: 70%;
+    display: flex;
+    text-align: left;
+}
+
+.footer-divRight {
+    text-align: center;
+}
+
+.footer-image {
+    padding: 10px 10px;
+}
+
+.form input {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.logo-footer img {
+    width: 100%;
+    border-radius: 3px;
+}

@@ -1,0 +1,13 @@
+create table department_1071(deptno number, deptname varchar2(10), location varchar2(10));
+Alter table department_1071 add(designation varchar2(10));
+insert into department_1071 values(9, 'accounting', 'hyderabad', 'manager');
+insert into department_1071 values(10, 'research', 'chennai', 'professor');
+insert into department_1071 values(11, 'sales', 'banglore', 'salesman');
+insert into department_1071 values(12, 'operations', 'mumbai', 'operator');
+insert into department_1071 values(9, 'accounting', 'chennai', 'manager');
+select deptno, deptname from department_1071 group by deptno, deptname;
+Update department_1071 set designation = 'accountant' where deptno = 9;
+select *from department_1071;
+Alter table department_1071 drop(designation);
+select *from department_1071;
+SELECT *FROM department_1071 ORDER BY deptno, deptname, location DESC;
